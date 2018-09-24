@@ -7,6 +7,6 @@ def main():
 def sumOfMultiples(a, b):
     sum = 0
     for i in range(1000):
-        if (i % 3 == 0) or (i % 5 == 0):
+        if (i % a == 0) or (i % b == 0):
             sum += i
     return sum
